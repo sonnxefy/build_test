@@ -1,0 +1,260 @@
+/*!
+ * @Author: anhtv
+ * @date: 5/7/2018
+ */
+@import "~devextreme/dist/css/dx.light.css";
+@import "~bootstrap/scss/bootstrap";
+@import "~ngx-bootstrap/datepicker/bs-datepicker.css";
+@import "core-variables";
+@import "themes-variables";
+@import "core/index";
+
+
+.role-box .dx-treelist-container .dx-row td{
+    padding: 2px 7px;
+}
+
+strong {
+  font-weight: bold !important;
+}
+
+.disabled-link {
+  pointer-events: none;
+  cursor: default;
+}
+.xemIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -390px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.linkIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/home/system-3.png);
+  background-position-x: 0px;
+  background-position-y: -390px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.suaIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -358px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.taiXmlIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -618px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.copyIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -294px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.xoaIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -262px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.inIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -714px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.attachIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -1513px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.morongIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -35px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+}
+.xmlIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -35px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+  margin-top: -5px;
+}
+.huySoIcon {
+  // background-image: url(https://demo.meinvoice.vn/Content/img/icon_24.svg);
+  background-image: url(assets/img/icons/icon_24.svg);
+  background-position-x: 0px;
+  background-position-y: -1546px;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+  margin-top: -5px;
+}
+
+.actionIcon {
+  width: 28px;
+  height: 24px;
+  display: inline-block;
+  cursor: pointer;
+  background-position-x: center;
+  /* margin: 0 4px !important; */
+}
+.actionExtenIcon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+  background-position-x: center;
+  /* margin: 0 4px !important; */
+}
+// .dx-item-content{
+//     .dx-checkbox-icon{
+//         width: 17px;
+//         height: 17px;
+//     }
+//     .dx-checkbox-text{
+//         width: auto;
+//         white-space: nowrap;
+//     }
+// }
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.text-title-popup {
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.9;
+  font-size: 12px;
+  display: inline-block;
+}
+.header-model-top {
+  line-height: 47px;
+  //padding: 17px 20px !important;
+  border-top-left-radius: 7px !important;
+  border-top-right-radius: 7px !important;
+  //border-bottom: 1px solid rgba(112, 112, 112, 1) !important;
+  background-color: rgba(243, 243, 243, 1) !important;
+}
+
+.header-model-top .title {
+  opacity: 0.9;
+}
+.button-model-popup {
+  margin-right: 10px;
+  height: 25px;
+  line-height: 23px;
+  border-radius: 3px !important;
+  min-width: 72px;
+}
+
+.button-model-popup:focus {
+  outline: none;
+}
+.btn-success-popup {
+  background: rgba(57, 181, 74, 1);
+  border: 1px solid rgba(57, 181, 74, 1);
+  color: #fff;
+}
+
+.btn-cancel-popup {
+  background: rgba(228, 228, 228, 1);
+  color: rgba(57, 181, 74, 1);
+  border: 1px solid rgba(228, 228, 228, 1);
+}
+.description-model-popup {
+  display: inline-grid;
+  flex-direction: row;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.8;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.description-model-popup a {
+  text-decoration: none;
+}
+.modal-width-560 {
+  max-width: 560px !important;
+}
+
+.modal-width-600 {
+  max-width: 600px !important;
+}
+.e-invoice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #d5d5d5
+}
+.thong-tin-hoa-don {
+  width: 25%;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
